@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    let characterName = "Miguelinho"
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Life RPG")
+            Text(characterName)
         }
         .padding()
     }
